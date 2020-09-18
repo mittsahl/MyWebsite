@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24305E;
+    height: 100vh;
+}
+
+h1 {
+    color: #A8D0E6;
+    font-display: optional;
+    font-size: 15vh;
+    font-family: 'Noto Sans SC', sans-serif;
+    margin-left: 12vw;
+    text-shadow: 
+    -1px 1px 1px rgba(0,0,0,1),
+    -2px 2px 1px rgba(0,0,0,0.6),
+    -4px 4px 1px rgba(0,0,0,0.4),
+    -6px 6px 1px rgba(0,0,0,0.2),
+    -8px 8px 1px rgba(0,0,0,0.18),
+    -10px 10px 1px rgba(0,0,0,0.16),
+    -12px 12px 1px rgba(0,0,0,0.15),
+    -14px 14px 1px rgba(0,0,0,0.14),
+    -16px 16px 1px rgba(0,0,0,0.13),
+    -18px 18px 1px rgba(0,0,0,0.12),
+    -20px 20px 1px rgba(0,0,0,0.11),
+    -22px 22px 1px rgba(0,0,0,0.1),
+    -24px 24px 1px rgba(0,0,0,0.09),
+    -26px 26px 1px rgba(0,0,0,0.08),
+    -28px 28px 1px rgba(0,0,0,0.07),
+    -30px 30px 1px rgba(0,0,0,0.06),
+    -32px 32px 1px rgba(0,0,0,0.05),
+    -34px 34px 1px rgba(0,0,0,0.04),
+    -36px 36px 1px rgba(0,0,0,0.03),
+    -38px 38px 1px rgba(0,0,0,0.02);
+}
+
+h3 {
+    font-family: 'Courier Prime', monospace;
+    color: #f99f9f;
+    font-size: 3vh;
+    margin-left: 13vw;
+    margin-top: 10vh;
+}
+
+h2 {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-display: optional;
+    color: #F8e9a1;
+    font-size: 15vh;
+    margin-left: 12vw;
+    text-shadow: 
+    -1px 1px 1px rgba(0,0,0,1),
+    -2px 2px 1px rgba(0,0,0,0.6),
+    -4px 4px 1px rgba(0,0,0,0.4),
+    -6px 6px 1px rgba(0,0,0,0.2),
+    -8px 8px 1px rgba(0,0,0,0.18),
+    -10px 10px 1px rgba(0,0,0,0.16),
+    -12px 12px 1px rgba(0,0,0,0.15),
+    -14px 14px 1px rgba(0,0,0,0.14),
+    -16px 16px 1px rgba(0,0,0,0.13),
+    -18px 18px 1px rgba(0,0,0,0.12),
+    -20px 20px 1px rgba(0,0,0,0.11),
+    -22px 22px 1px rgba(0,0,0,0.1),
+    -24px 24px 1px rgba(0,0,0,0.09),
+    -26px 26px 1px rgba(0,0,0,0.08),
+    -28px 28px 1px rgba(0,0,0,0.07),
+    -30px 30px 1px rgba(0,0,0,0.06),
+    -32px 32px 1px rgba(0,0,0,0.05),
+    -34px 34px 1px rgba(0,0,0,0.04),
+    -36px 36px 1px rgba(0,0,0,0.03),
+    -38px 38px 1px rgba(0,0,0,0.02);
+    }
+    
+h4 {
+    font-family: 'Courier Prime', monospace;
+    color: #f99f9f;
+    font-size: 3vh;
+    margin-left: 13vw;
+    margin-top: 5vh;
+}
+
+h5 {
+    font-size: 5vh;
+    font-family: 'Noto Sans SC', sans-serif;
+    color: #f8e9a1;
+    padding: 20px; 
+    text-shadow: 
+    -1px 1px 1px rgba(0,0,0,1),
+    -2px 2px 1px rgba(0,0,0,0.6),
+    -4px 4px 1px rgba(0,0,0,0.4),
+    -6px 6px 1px rgba(0,0,0,0.2);
+}
+
+h5:after {
+    background-color: #A8D0E6;
+  content: "";
+  display: inline-block;   
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  margin-left: 20px;
+  box-shadow: 
+  -1px 1px 1px rgba(0,0,0,1),
+  -2px 2px 1px rgba(0,0,0,0.6),
+  -4px 4px 1px rgba(0,0,0,0.4),
+  -6px 6px 1px rgba(0,0,0,0.2); 
+}
+
+.red {
+    color: #f99f9f;
+    display: inline-block;
+}
+.box {
+    margin-top: 20vh;
+    width: 66vw;
+    height: 15vh;
+    margin-left: 12vw;
+}
+
+.content {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 75px;
+}
+
+p {
+    color : #A8D0E6;
+    font-size: 2.75vh;
+    font-family: 'Courier Prime', monospace;
+    margin-left: 8vw;
+}
+
+hr {
+    height: 1vh;
+    background-color: #A8D0E6;
+    border: none;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+
+img {
+    float: left;
+    width: 25vw;
+    height: auto;
+    border-radius: 20px;    
+}
+
+
+.btn {
+    font-family: 'Courier Prime', monospace;
+    color: #F8E9A1;
+    transition: transform .2s;
+}
+
+.btn:hover {
+    background-color: #F8E9A1;
+    color: #24305E;
+    transform: scale(1.2);
+    box-shadow:
+    -1px 1px 1px rgba(0,0,0,1),
+    -2px 2px 1px rgba(0,0,0,0.6),
+    -4px 4px 1px rgba(0,0,0,0.4),
+    -6px 6px 1px rgba(0,0,0,0.2),
+    -8px 8px 1px rgba(0,0,0,0.18),
+    -10px 10px 1px rgba(0,0,0,0.16),
+    -12px 12px 1px rgba(0,0,0,0.14),
+    -14px 14px 1px rgba(0,0,0,0.12),
+    -16px 16px 1px rgba(0,0,0,0.10),
+    -18px 18px 1px rgba(0,0,0,0.09),
+    -20px 20px 1px rgba(0,0,0,0.08),
+    -22px 22px 1px rgba(0,0,0,0.07),
+    -24px 24px 1px rgba(0,0,0,0.06),
+    -26px 26px 1px rgba(0,0,0,0.05),
+    -28px 28px 1px rgba(0,0,0,0.04),
+    -30px 30px 1px rgba(0,0,0,0.03),
+    -32px 32px 1px rgba(0,0,0,0.02),
+    -34px 34px 1px rgba(0,0,0,0.01);
+ }
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
